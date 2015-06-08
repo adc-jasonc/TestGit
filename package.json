@@ -1,0 +1,13 @@
+{
+  "name": "TestGit",
+  "version": "0.1",
+  "description": "Testing Git",
+  "main": "/",
+  "scripts": {
+    "preinstall": "echo 'hello world'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adc-jasonc/TestGit.git"
+  }
+}
