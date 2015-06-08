@@ -4,7 +4,7 @@
   "description": "Testing Git",
   "main": "/",
   "scripts": {
-    "preinstall": "ln -s ./scripts/hook-pre-push .git/hooks/pre-push"
+    "preinstall": "ln -sf ../../scripts/hook-pre-push .git/hooks/pre-push"
   },
   "repository": {
     "type": "git",
