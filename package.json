@@ -1,13 +1,17 @@
 {
   "name": "TestGit",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Testing Git",
   "main": "/",
   "scripts": {
-    "preinstall": "echo 'hello world'"
+    "preinstall": "ln -s ./scripts/hook-pre-push .git/hooks/pre-push"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/adc-jasonc/TestGit.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "karma": "^0.12.31"
   }
 }
